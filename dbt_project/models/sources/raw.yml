@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: tb_cliente
+      - name: tb_produto
+      - name: tb_vendedor
+      - name: tb_vendas

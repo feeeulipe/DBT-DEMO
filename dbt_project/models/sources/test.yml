@@ -1,0 +1,11 @@
+models:
+  - name: stg_vendas
+    columns:
+      - name: id_venda
+        tests:
+          - unique  # Verifica se os IDs são únicos
+          - not_null  # Verifica se não existem valores nulos
+
+
+
+
