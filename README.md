@@ -11,7 +11,7 @@ Voce pode obter a versão mais atual do python [aqui](https://www.python.org/dow
 Agora crie uma pasta para o seu projeto e depois vamos criar o ambiente virtual de instalação:
 
 ``` shell
-.venv\Scripts\activate
+python -m venv .venv 
 ```
 
 Agora vamos acessar o ambiente virtual:
