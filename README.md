@@ -1,4 +1,4 @@
-# Aqui estarão todos os arquivos relacionados aos videos do canal
+# Passo a Passo para instalação do DBT Core
 
 ____
 
