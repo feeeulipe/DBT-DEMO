@@ -65,11 +65,11 @@ postgres=# \l
 ```
 Segue abaixo os scripts para criar a fonte de dados, no primeiro arquivo estão os comandos para criar o database e as tabelas, os demais são para inserir os dados.
 
-Pegue [aqui](./sql_source/) os arquivos para criação do ambiente da fonte de dados. Execute na seguinte sequencia:
-1. [general.sql](./sql_source/general.sql)
-2. [cliente.sql](./sql_source/cliente.sql)
-3. [conta.sql](./sql_source/conta.sql)
-4. [compras.sql](./sql_source/compras.sql)
+Pegue [aqui](./sources/) os arquivos para criação do ambiente da fonte de dados. Execute na seguinte sequencia:
+1. [tb_cliente.csv](./sources/tb_cliente.csv)
+2. [tb_produto.csv](./sources/tb_produto.csv)
+3. [tb_vendas.csv](./sources/tb_vendas.csv)
+4. [tb_vendedor.csv](./sources/tb_vendedor.csv)
 
 ## Configuração do **dbt** para conectar em um banco de dados local (postgres)
 
