@@ -1,8 +1,8 @@
-# Passo a Passo para instalação do DBT Core
+# Instalação do DBT Core
 
 ____
 
-## Passo-a-passo para configuração do ambiente para o **dbt**.
+## Passo-a-passo para configuração do ambiente para o **DBT**.
 
 Primeiro passo para configurar o dbt é instalar o python versão >= 3.7
 
