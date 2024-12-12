@@ -59,11 +59,7 @@ Com o postgres instalado, abra o psql e acesse as credenciais que foram confirad
 >-  User: postgres
 >- Password: postgres
 
-Para listar os databases existentes no psql:
-``` shell
-postgres=# \l
-```
-Segue abaixo os scripts para criar a fonte de dados, no primeiro arquivo estão os comandos para criar o database e as tabelas, os demais são para inserir os dados.
+Segue abaixo as fontes de dados.
 
 Pegue [aqui](./sources/) os arquivos para criação do ambiente da fonte de dados. Execute na seguinte sequencia:
 1. [tb_cliente.csv](./sources/tb_cliente.csv)
