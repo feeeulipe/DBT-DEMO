@@ -59,13 +59,15 @@ Com o postgres instalado, abra o psql e acesse as credenciais que foram confirad
 >-  User: postgres
 >- Password: postgres
 
-Segue abaixo as fontes de dados.
+Segue abaixo as fontes de dados e a documentação do projeto.
 
 Pegue [aqui](./sources/) os arquivos para criação do ambiente da fonte de dados. Execute na seguinte sequencia:
 1. [tb_cliente.csv](./sources/tb_cliente.csv)
 2. [tb_produto.csv](./sources/tb_produto.csv)
 3. [tb_vendas.csv](./sources/tb_vendas.csv)
 4. [tb_vendedor.csv](./sources/tb_vendedor.csv)
+
+Documentação: https://sites.google.com/view/portifliofelipedecamargo/início
 
 ## Configuração do **dbt** para conectar em um banco de dados local (postgres)
 
