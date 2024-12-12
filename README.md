@@ -72,12 +72,12 @@ Pegue [aqui](./sources/) os arquivos para criação do ambiente da fonte de dado
 Vamos iniciar o projeto dbt:
 
 ``` shell
-dbt init dbt_canal
+dbt init nome_seu_projeto
 ```
 Vá até a pasta do projeto:
 
 ``` shell
-cd dbt_canal
+cd nome_seu_projeto
 ``` 
 Para validar se está tudo funcionando:
 ``` shell
