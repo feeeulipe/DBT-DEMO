@@ -1,8 +1,8 @@
-# Passo a Passo para instalação do DBT Core
+# Instalação do DBT Core
 
 ____
 
-## Passo-a-passo para configuração do ambiente para o **dbt**.
+## Passo-a-passo para configuração do ambiente para o **DBT**.
 
 Primeiro passo para configurar o dbt é instalar o python versão >= 3.7
 
@@ -11,7 +11,7 @@ Voce pode obter a versão mais atual do python [aqui](https://www.python.org/dow
 Agora crie uma pasta para o seu projeto e depois vamos criar o ambiente virtual de instalação:
 
 ``` shell
-.venv\Scripts\activate
+python -m venv .venv 
 ```
 
 Agora vamos acessar o ambiente virtual:
@@ -59,29 +59,27 @@ Com o postgres instalado, abra o psql e acesse as credenciais que foram confirad
 >-  User: postgres
 >- Password: postgres
 
-Para listar os databases existentes no psql:
-``` shell
-postgres=# \l
-```
-Segue abaixo os scripts para criar a fonte de dados, no primeiro arquivo estão os comandos para criar o database e as tabelas, os demais são para inserir os dados.
+Segue abaixo as fontes de dados e a documentação do projeto.
 
-Pegue [aqui](./sql_source/) os arquivos para criação do ambiente da fonte de dados. Execute na seguinte sequencia:
-1. [general.sql](./sql_source/general.sql)
-2. [cliente.sql](./sql_source/cliente.sql)
-3. [conta.sql](./sql_source/conta.sql)
-4. [compras.sql](./sql_source/compras.sql)
+Pegue [aqui](./sources/) os arquivos para criação do ambiente da fonte de dados. Execute na seguinte sequencia:
+1. [tb_cliente.csv](./sources/tb_cliente.csv)
+2. [tb_produto.csv](./sources/tb_produto.csv)
+3. [tb_vendas.csv](./sources/tb_vendas.csv)
+4. [tb_vendedor.csv](./sources/tb_vendedor.csv)
+
+Documentação: https://sites.google.com/view/portifliofelipedecamargo/início
 
 ## Configuração do **dbt** para conectar em um banco de dados local (postgres)
 
 Vamos iniciar o projeto dbt:
 
 ``` shell
-dbt init dbt_canal
+dbt init nome_seu_projeto
 ```
 Vá até a pasta do projeto:
 
 ``` shell
-cd dbt_canal
+cd nome_seu_projeto
 ``` 
 Para validar se está tudo funcionando:
 ``` shell
