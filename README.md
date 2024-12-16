@@ -61,7 +61,7 @@ Com o postgres instalado, abra o psql e acesse as credenciais que foram confirad
 
 Segue abaixo as fontes de dados e a documentação do projeto.
 
-Pegue [aqui](./sources/) os arquivos para criação do ambiente da fonte de dados. Execute na seguinte sequencia:
+Pegue [aqui](./sources/) os arquivos para criação do ambiente da fonte de dados.
 1. [tb_cliente.csv](./sources/tb_cliente.csv)
 2. [tb_produto.csv](./sources/tb_produto.csv)
 3. [tb_vendas.csv](./sources/tb_vendas.csv)
